@@ -1,5 +1,8 @@
+from src.database.connect import get_connection
+
 def main():
-  print('Projeto de Automação de Relatórios iniciado!')
+  conn = get_connection()
+  print('Conexão ok!')
 
 if __name__ == '__main__':
   main()
